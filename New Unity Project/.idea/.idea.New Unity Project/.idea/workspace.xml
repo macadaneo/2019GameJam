@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="082d2af5-59a3-4b1f-a900-cd9a9c1b0659" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/PlayerAnimator.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,15 +17,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="221">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
-                <marker date="1564824040124" expanded="false" signature="6:78" ph="..." />
-                <marker date="1564824040124" expanded="true" signature="123:1375" ph="{...}" />
-                <marker date="1564824040124" expanded="true" signature="314:422" ph="{...}" />
-                <marker date="1564824040124" expanded="true" signature="446:1176" ph="{...}" />
-                <marker date="1564824040124" expanded="true" signature="569:624" ph="/* Debug.Log(horizontal); ... */" />
-                <marker date="1564824040124" expanded="true" signature="1211:1373" ph="{...}" />
+                <marker date="1564876273283" expanded="false" signature="6:78" ph="..." />
+                <marker date="1564876273283" expanded="true" signature="123:374" ph="{...}" />
+                <marker date="1564876273283" expanded="true" signature="179:372" ph="{...}" />
+                <marker date="1564876273283" expanded="true" signature="302:357" ph="/* Debug.Log(horizontal); ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PhysicsObject.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1564875756196" expanded="false" signature="6:78" ph="..." />
+                <marker date="1564875756196" expanded="true" signature="122:296" ph="{...}" />
+                <marker date="1564875756196" expanded="true" signature="194:215" ph="{...}" />
+                <marker date="1564875756196" expanded="true" signature="273:294" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -40,19 +51,21 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PhysicsObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.0.8/Rider/Editor/RiderInitializer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/PhysicsObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3826" />
-    <option name="width" value="945" />
-    <option name="height" value="1024" />
+    <option name="x" value="-15" />
+    <option name="width" value="1948" />
+    <option name="height" value="2075" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -128,12 +141,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564792876753</updated>
-      <workItem from="1564792881133" duration="8969000" />
+      <workItem from="1564792881133" duration="11094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8969000" />
+    <option name="totallyTimeSpent" value="11094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -145,12 +158,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="800" y="0" width="373" height="407" extended-state="0" />
+    <frame x="-6" y="0" width="779" height="830" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.62857145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.116504855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -198,17 +211,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PhysicsObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1564875756196" expanded="false" signature="6:78" ph="..." />
+            <marker date="1564875756196" expanded="true" signature="122:296" ph="{...}" />
+            <marker date="1564875756196" expanded="true" signature="194:215" ph="{...}" />
+            <marker date="1564875756196" expanded="true" signature="273:294" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="221">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
-            <marker date="1564824040124" expanded="false" signature="6:78" ph="..." />
-            <marker date="1564824040124" expanded="true" signature="123:1375" ph="{...}" />
-            <marker date="1564824040124" expanded="true" signature="314:422" ph="{...}" />
-            <marker date="1564824040124" expanded="true" signature="446:1176" ph="{...}" />
-            <marker date="1564824040124" expanded="true" signature="569:624" ph="/* Debug.Log(horizontal); ... */" />
-            <marker date="1564824040124" expanded="true" signature="1211:1373" ph="{...}" />
+            <marker date="1564876273283" expanded="false" signature="6:78" ph="..." />
+            <marker date="1564876273283" expanded="true" signature="123:374" ph="{...}" />
+            <marker date="1564876273283" expanded="true" signature="179:372" ph="{...}" />
+            <marker date="1564876273283" expanded="true" signature="302:357" ph="/* Debug.Log(horizontal); ... */" />
           </folding>
         </state>
       </provider>
